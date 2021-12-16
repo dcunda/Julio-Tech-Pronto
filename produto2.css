@@ -1,0 +1,239 @@
+::marker{
+    color: transparent;
+}
+#logo{
+    margin: 5px 50px;
+    float: left;
+}
+#buscar{
+    background-color: #E3E3E3;
+    width: 30%;
+    float: left;
+    margin: 20px 100px;
+}
+#ce{
+    font-size: 30px;
+    margin: -10px 70px;
+    float: right;
+    list-style: none;
+}
+#ce a{
+    color: black;
+}
+#ce a:hover{
+    color: #00ACE5;
+    text-decoration: none;
+
+
+}
+main{
+    height: 2100px;
+    background-color: #e3e3e3;
+    padding-top: 20px;
+}
+#cabeça1 img{
+    display: block;
+    margin-left: 100px;
+    display: inline-block;
+    padding-right: 100px;
+}
+#cabeça1{
+    height: 600px;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding-top: 30px;
+    
+    
+}
+#cabeça2{
+    height: 800px;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding-top: 15px;
+    
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-bottom: #00ACE5 solid 4px; 
+    margin-top: -15px;
+}
+
+.texto2{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.swiper {
+    width: 1280px;
+    height: auto;
+    margin-top: 30px;
+    
+      
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    
+    
+}
+.swiper-slide a{
+    text-decoration: none !important;
+}
+.card-img-top{
+    height: 250px;
+    width: 300px;
+    border-bottom: #00ACE5 solid 3px; 
+    
+}
+.card-title{
+    color: black;
+    
+}
+.card-text{
+    color: black;
+    
+}
+.card:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #00ACE5;
+    transform: scale(1.01);
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+}
+#sec3 h1{
+    margin-top: 240px;
+}
+#sec3 a{
+    text-decoration: none !important;
+}
+.info2{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    border-left: #00ACE5 solid 4px;
+    margin-top: -50px !important;
+    
+   
+}
+.info2 p{
+    color: black !important;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+.info2 button{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 148px;
+    height: 50px;
+    width: 400px;
+}
+.btn-primary{
+    margin-top: 30px;
+    background-color: #00ACE5 !important;
+    border-color: #00ACE5 !important;
+    width: 90%;
+    height: 50px;
+}
+.btn-primary:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    transform: scale(1.05);
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+}
+.btn-primary:focus{
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+}
+.cat{
+    font-size: 30px;
+}
+.tit{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.dat{
+    margin-top:  -20px !important;
+    font-size: 20px;
+}
+.det{
+    font-size: 60px;
+}
+.capa2{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: #00ACE5;
+}
+:root {
+    --swiper-theme-color: #00ACE5 !important;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border-top: #00ACE5 solid 4px;
+    position: relative;
+}
+footer p{
+    float: left;
+    font-size: 20px ;
+    position: absolute;
+    bottom: 0;
+    margin-left: 70px;
+}
+footer #ce{
+    font-size: 30px;
+    margin: -10px 70px;
+    list-style: none;
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+}
+footer #ce a{
+    color: black;
+}
+footer #ce a:hover{
+    color: #00ACE5;
+    text-decoration: none;
+}
+#cabeça2 li{
+    margin-bottom:50px;
+}
+#cabeça2 h5{
+    margin: 30px;
+}
+@media (max-width:480px){
+    body{
+        width: 1500px;
+    }
+}
+
+
+
+

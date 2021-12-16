@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #E3E3E3;
+}
+main{
+    background-color: rgb(227, 227, 227);  
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-bottom: #00ACE5 solid 4px; 
+    margin-top: -15px;
+}
+#logo{
+    margin: 5px 50px;
+    float: left;
+}
+#buscar{
+    background-color: #E3E3E3;
+    width: 30%;
+    float: left;
+    margin: 20px 100px;
+}
+
+#ce{
+    font-size: 30px;
+    margin: -10px 70px;
+    float: right;
+    list-style: none;
+}
+#ce a{
+    color: black;
+}
+#ce a:hover{
+    color: #00ACE5;
+    text-decoration: none;
+
+
+}
+.categorias-item:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #00ACE5;
+    transform: scale(1.05);
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+}
+.img-2:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+.imagens{
+    margin-top: 0px;
+    height: 450px;
+    width: 430px;
+    display:inline-block;
+}
+.lado{     
+    display: inline-block;
+    width: 40%;
+    margin-left: 7%;
+    text-align:justify ;
+    margin-top: 13%;
+    font-size: 20px; 
+}
+.Pessoa{     
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-left: 7%;
+    text-align:justify ;
+    margin-top: 13%;
+    font-size: 20px; 
+}
+.quatro {
+    width:20px;
+    float:left;
+    height: 200px;
+}
+ 
+ article ul{
+    font-size: 0; /* elimina espaços entre as li */
+    background-color: rgb(255, 255, 255); /* fundo branco na ul, se for preciso */
+ 
+ }
+ 
+ article ul li img{
+    width: 100%; /* ajusta a largura da imagem dentro da li */
+    display: block; /* convertendo para block elimina espaço natural abaixo da imagem */
+ }
+ 
+ article ul, article ul li{ /* remove espaços e o bullet da ul e das li */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ article ul li{
+    display: inline-block;
+    width: 25%; /* divide a largura por 4 */
+    box-sizing: border-box; /* restringe o padding à área da li */
+    text-align: center; /* centraliza o conteúdo */
+    padding: 15px; /* espaçamento interno entre o conteúdo e a borda da li */
+    font-size: 16px; /* ajusta o tamanho da fonte nas li com o tamanho padrão */
+    vertical-align: top; /* alinha as li no topo da linha */
+ }
+.hp {
+    height: 250px;
+}
+.espaço{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(255, 255, 255);
+    display: block;  
+    margin-top: 50px;
+}
+.espaço1{
+    margin-left: 150px;
+    margin-right: 150px;  
+    margin-bottom: 50px;
+}
+main ul h1{
+   text-align: center;
+   margin-top: 50px;
+}
+
+::marker{
+    color: transparent;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border-top: #00ACE5 solid 4px;
+    position: relative;
+}
+footer p{
+    float: left;
+    font-size: 20px ;
+    position: absolute;
+    bottom: 0;
+    margin-left: 70px;
+}
+footer .ce2{
+    font-size: 30px;
+    margin: -10px 70px;
+    list-style: none;
+    display: inline-block;
+    bottom: 90px;
+    right: 0;
+    width: 50%;
+    padding-left: 880px;
+}
+footer .ce2 a{
+    color: black;
+}
+footer .ce2 a:hover{
+    color: #00ACE5;
+    text-decoration: none;
+}
+a{
+    text-decoration: none !important;
+}
+.aaaa:hover{
+    transition: 0.25s;
+    transform: scale(1.05);
+}

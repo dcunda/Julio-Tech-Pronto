@@ -1,0 +1,274 @@
+main{
+    height: 1900px;
+}
+body{
+    background-color: #E3E3E3;
+}
+/*Header*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-bottom: #00ACE5 solid 4px; 
+    margin-top: -15px;
+}
+#logo{
+    margin: 5px 50px;
+    float: left;
+}
+#buscar{
+    background-color: #E3E3E3;
+    width: 30%;
+    float: left;
+    margin: 20px 100px;
+}
+#ce{
+    font-size: 30px;
+    margin: -10px 70px;
+    float: right;
+    list-style: none;
+}
+#ce a{
+    color: black;
+}
+#ce a:hover{
+    color: #00ACE5;
+    text-decoration: none;
+
+    
+}
+/*Header*/
+
+/*Main*/
+
+
+.foto{
+    background-image: url("https://img.olhardigital.com.br/wp-content/uploads/2021/02/shutterstock_1886336365_Easy-Resize.com_.jpg");
+    background-size: cover;
+}
+.nome{
+    font-size: 50px;
+    margin-left: 23px;
+}
+.preco{
+    font-size: 70px;
+    margin-left: 23px;
+}
+.parcelas{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.de{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.por{
+    font-size: 35px;
+    margin-left: 30px;
+    margin-bottom: -35px;
+}
+.info{
+    width: 39%;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+    border-left:  #00ACE5 solid 4px;
+    vertical-align: top;
+}
+.foto{
+    filter: brightness(80%);
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+}
+
+.carousel-control-prev{
+    background-color: black;
+    opacity: 20%;
+    width: 5%;
+    height: 500px;
+}
+.carousel-control-next{
+    background-color: black;
+    opacity: 20%;
+    width: 5%;
+    height: 500px;
+    margin-right: 12px;
+}
+.carousel-control-prev:hover{
+    opacity: 20%;
+
+}
+.carousel-control-next:hover{
+    opacity: 20%;
+}
+.carousel-control-prev:focus{
+    opacity: 20%;
+    
+}
+.carousel-control-next:focus{
+    opacity: 20%;
+}
+.btn-primary{
+    margin-top: 30px;
+    background-color: #00ACE5 !important;
+    border-color: #00ACE5 !important;
+    width: 90%;
+    height: 50px;
+}
+.btn-primary:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    transform: scale(1.05);
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+}
+.btn-primary:focus{
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+}
+#carouselExampleControls{
+    width: 80%;
+    margin: auto;
+}
+main h1{
+    font-weight: normal;
+    margin: 30px 160px;
+}
+.categorias-item{
+    background-color: white;
+    height: 24%;
+    width: 24%;
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: black;
+}
+#categorias{
+    margin:  0px 150px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.categorias-item img{
+    display: block;
+    margin: auto;
+}
+.categorias-item p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.categorias-item:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #00ACE5;
+    transform: scale(1.05);
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+}
+a{
+    text-decoration: none !important;
+}
+
+.swiper {
+    width: 1280px;
+    height: auto;
+    margin-top: 30px;
+    
+      
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    
+    
+}
+.swiper-slide a{
+    text-decoration: none !important;
+}
+.card-img-top{
+    height: 250px;
+    width: 300px;
+    border-bottom: #00ACE5 solid 3px; 
+
+}
+.card-title{
+    color: black;
+
+}
+.card-text{
+    color: black;
+
+}
+.card:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #00ACE5;
+    transform: scale(1.01);
+    box-shadow: 0 0 0px 5px rgba(0, 162, 211, 0.2);
+} 
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: #00ACE5;
+}
+:root {
+    --swiper-theme-color: #00ACE5 !important;
+}
+/*Main*/
+
+/*Footer*/
+footer{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border-top: #00ACE5 solid 4px;
+    position: relative;
+}
+footer p{
+    float: left;
+    font-size: 20px ;
+    position: absolute;
+    bottom: 0;
+    margin-left: 70px;
+}
+footer #ce{
+    font-size: 30px;
+    margin: -10px 70px;
+    list-style: none;
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+}
+footer #ce a{
+    color: black;
+}
+footer #ce a:hover{
+    color: #00ACE5;
+    text-decoration: none;
+}
+@media(max-width:480px){
+    body{
+        width: 1500px;
+    }
+}
+::marker{
+    color: transparent;
+}
+
+
